@@ -34,13 +34,13 @@
   },
   "homepage": "https://github.com/zakplus/obfuscator-loader#readme",
   "dependencies": {
-    "esprima": "^4.0.0",
-    "javascript-obfuscator": "^0.24.0",
-    "loader-utils": "^1.1.0"
+    "esprima": "^4.0.1",
+    "javascript-obfuscator": "^0.25.0",
+    "loader-utils": "^1.4.0"
   },
   "devDependencies": {
-    "eslint": "^4.19.1",
-    "eslint-config-airbnb-base": "^12.1.0",
-    "eslint-plugin-import": "^2.10.0"
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.20.1"
   }
 }
