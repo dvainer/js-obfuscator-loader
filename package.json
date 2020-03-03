@@ -1,7 +1,7 @@
 {
-  "name": "obfuscator-loader",
-  "version": "1.1.4",
-  "description": "A webpack loader for obfuscating single modules using javascript-obfuscator",
+  "name": "ufs-obfuscator-loader",
+  "version": "1.0.0",
+  "description": "Fork Node v13.9.0 compatible. A webpack loader for obfuscating single modules using javascript-obfuscator",
   "main": "lib/index.js",
   "directories": {
     "lib": "lib"
@@ -11,28 +11,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zakplus/obfuscator-loader.git"
+    "url": "git+https://github.com/dvainer/ufs-obfuscator-loader.git"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
-  "keywords": [
-    "webpack",
-    "obfuscator",
-    "webpack",
-    "loader",
-    "javascript-obfuscator"
-  ],
   "author": {
-    "name": "Valerio Bianchi",
-    "email": "contacts@valeriobianchi.com",
-    "url": "https://valeriobianchi.com"
+    "name": "Vayner Daniil",
+    "email": "dvainer@ufs.travel",
+    "url": "https://www.ufs-online.ru"
   },
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/zakplus/obfuscator-loader/issues"
-  },
-  "homepage": "https://github.com/zakplus/obfuscator-loader#readme",
+  "homepage": "https://github.com/dvainer/ufs-obfuscator-loader#readme",
   "dependencies": {
     "esprima": "^4.0.1",
     "javascript-obfuscator": "^0.25.0",
