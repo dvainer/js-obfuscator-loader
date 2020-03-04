@@ -1,6 +1,6 @@
 {
   "name": "js-obfuscator-loader",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Fork obfuscator-loader. Node v13.9.0 compatible. A webpack loader for obfuscating single modules using javascript-obfuscator",
   "main": "lib/index.js",
   "directories": {
