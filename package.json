@@ -1,6 +1,6 @@
 {
   "name": "js-obfuscator-loader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Fork obfuscator-loader. Node v13.9.0 compatible. A webpack loader for obfuscating single modules using javascript-obfuscator",
   "main": "lib/index.js",
   "directories": {
@@ -14,7 +14,7 @@
     "url": "git+https://github.com/dvainer/js-obfuscator-loader.git"
   },
   "publishConfig": {
-	"registry": "https://registry.npmjs.org/"
+    "registry": "https://registry.npmjs.org/"
   },
   "author": {
     "name": "Daniil"
@@ -22,8 +22,9 @@
   "license": "MIT",
   "homepage": "https://github.com/dvainer/js-obfuscator-loader#readme",
   "dependencies": {
+    "acorn": "^6.0.0",
     "esprima": "^4.0.1",
-    "javascript-obfuscator": "^0.25.0",
+    "javascript-obfuscator": "^0.25.3",
     "loader-utils": "^1.4.0"
   },
   "devDependencies": {
