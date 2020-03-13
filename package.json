@@ -1,6 +1,6 @@
 {
   "name": "js-obfuscator-loader",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Fork obfuscator-loader. Node v13.9.0 compatible. A webpack loader for obfuscating single modules using javascript-obfuscator",
   "main": "lib/index.js",
   "directories": {
@@ -23,12 +23,12 @@
   "homepage": "https://github.com/dvainer/js-obfuscator-loader#readme",
   "dependencies": {
     "esprima": "^4.0.1",
-    "javascript-obfuscator": "^0.25.3",
+    "javascript-obfuscator": "^0.25.4",
     "loader-utils": "^1.4.0"
   },
   "devDependencies": {
     "eslint": "^6.8.0",
-    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-airbnb-base": "^14.1.0",
     "eslint-plugin-import": "^2.20.1"
   }
 }
